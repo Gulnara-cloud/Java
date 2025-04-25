@@ -1,3 +1,5 @@
+package HRsolutions;
+
 import java.util.Scanner;
 
 public class Solution3 {
