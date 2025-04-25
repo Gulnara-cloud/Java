@@ -1,4 +1,4 @@
-package week4;
+package week4.zoo;
 
 public class Dog extends Animal {
 
@@ -6,7 +6,7 @@ public class Dog extends Animal {
         this.name = name;
     }
 
-    public void bark() {
+    public void makeSound() {
         System.out.println(this.name + " barked!");
     }
 }

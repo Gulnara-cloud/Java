@@ -1,5 +1,6 @@
+package HRsolutions;
+
 import java.util.*;
-import java.io.*;
 
 class Solution5 {
     public static void main(String []argh){
