@@ -1,11 +1,5 @@
-package HRsolutions;
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
+package Java.HRsolutions;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 public class Solution6 {
     private static final Scanner scanner = new Scanner(System.in);
