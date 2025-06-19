@@ -18,6 +18,7 @@ N школьников делят K яблок поровну,
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int K = sc.nextInt();
-
+        int applesPerStudent = K / N;
+        System.out.println(applesPerStudent);
     }
 }
