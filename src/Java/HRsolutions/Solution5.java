@@ -1,4 +1,4 @@
-package HRsolutions;
+package Java.HRsolutions;
 
 import java.util.*;
 
