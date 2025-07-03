@@ -29,21 +29,21 @@ public class Task67 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int[] array = new int[n];
+        int[] arr = new int[n];
+
         for (int i = 0; i < n; i++) {
-            array[i] = sc.nextInt();
+            arr[i] = sc.nextInt();
         }
-        boolean found = false;
-        for (int i = 0; i < n - 1; i++) {
-            if((array[i] > 0 && array[i + 1] > 0) || (array[i] < 0 && array[i + 1] < 0)) {
-                found = true;
-                break;
+        boolean sameSign = false;
+        for (int i = 1; i < n; i++) {
+            if ((arr[i - 1] > 0 && arr[i] > 0) || (arr[i - 1] < 0 && arr[i] < 0)) {
+                sameSign = true;
             }
         }
-        if (found) {
-            System.out.println("Yes");
+        if (sameSign) {
+            System.out.println("YES");
         } else {
-            System.out.println("No");
+            System.out.println("NO");
         }
     }
 }
