@@ -31,18 +31,13 @@ public class Task72 {
         for(int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        // Step 3: Find the maximum value
-        int max = arr[0];  // Assume the first element is the max
-
+        int max = arr[0];
         for (int i = 1; i < n; i++) {
             if (arr[i] > max) {
                 max = arr[i];
             }
         }
-
-        // Step 4: Output the maximum value
         System.out.println(max);
-
         sc.close();
     }
 }
