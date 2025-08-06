@@ -1,6 +1,5 @@
-package JavaIntensive;
+package Java.Informatics;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Task293 {
