@@ -35,4 +35,4 @@ git clone https://github.com/Gulnara-cloud/JavaProjects.git
 👩‍💻 Author
 
 Gulnara Nuraly
-🌐 GitHub Profile
+
