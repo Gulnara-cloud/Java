@@ -1,4 +1,4 @@
-package methods;
+package week3.methods;
 
 public class Sum {
     public static int sum(int a, int b) {
