@@ -1,4 +1,4 @@
-package LeetCode;
+package Java.LeetCode;
 
 public class ClimbStairs {
     public static void main(String[] args) {
