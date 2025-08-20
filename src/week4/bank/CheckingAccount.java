@@ -1,5 +1,7 @@
 package week4.bank;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class CheckingAccount {
     // Encapsulation, hide the balance from external access
     private double balance;
