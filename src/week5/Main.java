@@ -1,4 +1,4 @@
-package basics;
+package week5;
 
 public class Main {
 }
