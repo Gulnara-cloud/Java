@@ -14,7 +14,7 @@ public class Main {
                 "September",
                 "October",
                 "November",
-                "December"
+
         };
         for (int i = 0; i < months.length; i++) {
             System.out.println(months[i]);
