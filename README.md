@@ -24,15 +24,20 @@ git clone https://github.com/Gulnara-cloud/Java.git
 
 📌 Topics Covered
 •	🔄 Loops: for, while, do-while
+
 •	🔀 Conditionals: if-else, switch-case
+
 •	📦 Collections: List, HashMap, HashSet
+
 •	🔢 Arrays: declaration, initialization, iteration
+
 •	🧮 Math class: mathematical operations
+
 •	🧩 OOP: classes, objects, methods, inheritance
+
 •	🔁 Recursion: basic and advanced examples
 
 
 👩‍💻 Author
-
 Gulnara Nuraly
 
