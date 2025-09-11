@@ -16,7 +16,7 @@
 Java 17+ • IntelliJ IDEA • Git/GitHub
 🚀 Run
 1. Clone the repo
-git clone https://github.com/Gulnara-cloud/JavaProjects.git
+git clone https://github.com/Gulnara-cloud/Java.git
 
 3. Open in IntelliJ IDEA (or any Java IDE)
 4. Run main() in the desired file
