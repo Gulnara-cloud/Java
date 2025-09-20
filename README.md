@@ -1,4 +1,4 @@
-               ☕ # Java
+               ☕ JAVA
 
 📚 Java practice - basics, loops, arrays, OOP, recursion, collections (List, HashMap, HashSet) and more.
 
