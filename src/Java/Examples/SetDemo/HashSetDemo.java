@@ -15,7 +15,7 @@ public class HashSetDemo {
         Set<String> fruits = new HashSet<>();
 
         fruits.add("Apple");
-        fruits.add("Banana");
+        fruits.add("Mango");
         fruits.add("Orange");
         fruits.add("Apple"); // duplicate, won't be added
 
