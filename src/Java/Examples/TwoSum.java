@@ -4,17 +4,17 @@ import java.util.Map;
 
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
+        Map <Integer, Integer> map = new HashMap<>();
 
-        Map<Integer, Integer> lastSeen = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            int b = nums[i];
-            int a = target - b;
-            if (lastSeen.containsKey(a)) {
-                return new int[]{lastSeen.get(a), i};
-            }
-            lastSeen.put(b, i);
+       for (int i = 0; i < nums.length; i++) {
+        int ind = target - nums[i];
+
+        if(map.containsKey(ind)) {
+            return new int[] { map.get(ind), i };
         }
-        return new int[]{};
+        map.put(nums[i], i);
+    }
+        return new int[] {};
     }
     public static void main(String[] args) {
         TwoSum obj = new TwoSum();
