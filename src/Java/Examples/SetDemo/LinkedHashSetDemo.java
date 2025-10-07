@@ -16,7 +16,7 @@ public class LinkedHashSetDemo {
         cities.add("Chicago");
         cities.add("New York");
         cities.add("Los Angeles");
-        cities.add("Chicago"); //duplicate, ignored
+        cities.add("New Jersey"); //duplicate, ignored
 
         //print the set
         System.out.println("Cities: "+cities);
