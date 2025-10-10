@@ -14,7 +14,7 @@ public class Queue7 {
         q.add("Book 1");
         q.add("Book 2");
         q.add("Book 3");
-        q.offer("Book 5");
+        q.offer("Book 4");
         System.out.println(q);        // [Book 1, Book 2, Book 3]
         System.out.println(q.peek()); // Book 1 (first)
         System.out.println(q.poll()); // Book 1 removed
