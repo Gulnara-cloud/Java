@@ -19,6 +19,7 @@ public class BinaryDemo {
         int m = 13;
         int n = 14;
         int p = 15;
+        int q = 16;
 
         System.out.println("a = " + a + " -> " + Integer.toBinaryString(a));
         System.out.println("b = " + b + " -> " + Integer.toBinaryString(b));
@@ -35,6 +36,7 @@ public class BinaryDemo {
         System.out.println("m = " + m + " -> " + Integer.toBinaryString(m));
         System.out.println("n = " + n + " -> " + Integer.toBinaryString(n));
         System.out.println("p = " + p + " -> " + Integer.toBinaryString(p));
+        System.out.println("q = " + q + " -> " + Integer.toBinaryString(q));
     }
 }
 //       128, 64, 32, 16, 8, 4, 2, 1
