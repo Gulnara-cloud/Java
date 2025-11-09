@@ -16,6 +16,7 @@ public class Vector4 {
         List<String> vector = new Vector<>();
         vector.add("One");
         vector.add("Two");
+        vector.add("Three");
         System.out.println(vector);
     }
 }
