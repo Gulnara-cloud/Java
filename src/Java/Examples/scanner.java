@@ -13,7 +13,7 @@ public class scanner {
         } else if (Number % 5 == 0) {
                 System.out.println("Fizz");
             } else if (Number % 3 == 0) {
-                System.out.println("Buzz");
+                System.out.println("Buzzz");
             } else {
                 System.out.println(Number);
             }
