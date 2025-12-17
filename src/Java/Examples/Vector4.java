@@ -18,6 +18,7 @@ public class Vector4 {
         vector.add("Two");
         vector.add("Three");
         vector.add("Four");
+        vector.add("Five");
         System.out.println(vector);
     }
 }
