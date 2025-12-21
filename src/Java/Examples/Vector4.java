@@ -20,6 +20,7 @@ public class Vector4 {
         vector.add("Four");
         vector.add("Five");
         vector.add("Six");
+        vector.add("Seven");
         System.out.println(vector);
     }
 }
