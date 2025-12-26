@@ -29,7 +29,7 @@ public class Deque8 {
         System.out.println(dq.pollLast());   //  B
         System.out.println(dq.pollFirst());  //  C
         System.out.println(dq.offerFirst("K")); // True - If the item has been successfully added
-        System.out.println(dq.offerLast("D")); //  ArrayDeque will almost always be true, as it is not limited in size
+        System.out.println(dq.offerLast("J")); //  ArrayDeque will almost always be true, as it is not limited in size
         System.out.println(dq.peekFirst());
         System.out.println(dq);              //  [A]
     }
