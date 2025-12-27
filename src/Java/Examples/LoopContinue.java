@@ -2,7 +2,7 @@ package Java.Examples;
 
 public class LoopContinue {
     public static void main(String[] args) {
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < 14; i++) {
             if (i == 4) {
                 continue;
             }
