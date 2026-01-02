@@ -20,6 +20,6 @@ public class HashSetDemo {
         fruits.add("Apple"); // duplicate, won't be added
 
         System.out.println(fruits); // [Apple, Banana, Orange]
-        System.out.println("Contains Banana? " + fruits.contains("Banana")); // true
+        System.out.println("Contains Apple? " + fruits.contains("Apple")); // true
     }
 }
