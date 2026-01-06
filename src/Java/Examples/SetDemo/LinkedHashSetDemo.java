@@ -13,7 +13,6 @@ public class LinkedHashSetDemo {
         Set<String> cities = new LinkedHashSet<>();
 
         //Add elements
-        cities.add("Washington DC");
         cities.add("Chicago");
         cities.add("New York");
         cities.add("Los Angeles");
