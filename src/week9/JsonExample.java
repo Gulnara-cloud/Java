@@ -12,6 +12,7 @@ public class JsonExample {
     public static void main(String[] args) throws IOException {
         Person anuar = new Person(20, "Anuar");
         Person taalai = new Person(35, "Taalai");
+
         List<Person> people = new ArrayList<>();
         people.add(anuar);
         people.add(taalai);
