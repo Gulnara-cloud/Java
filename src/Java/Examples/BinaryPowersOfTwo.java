@@ -2,7 +2,7 @@ package Java.Examples;
 
 public class BinaryPowersOfTwo {
     public static void main(String[] args) {
-        for(int i = 1; i <= 50; i++) {
+        for(int i = 1; i <= 40; i++) {
             if(isPowerOfTwo(i)) {
             System.out.println(i + " -> " + Integer.toBinaryString(i));
         }
