@@ -17,7 +17,7 @@ public class NumberHolder {
 
     public static void main(String[] args) {
         NumberHolder holder1 = new NumberHolder();
-        NumberHolder holder2 = new NumberHolder(20);
+        NumberHolder holder2 = new NumberHolder(30);
         NumberHolder holderCopy = new NumberHolder(holder2);
 
         System.out.println("Value of holder1's number: " + holder1.number);
