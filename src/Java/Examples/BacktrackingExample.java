@@ -5,7 +5,7 @@ import java.util.*;
 public class BacktrackingExample {
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4};
+        int[] nums = {1, 2, 3, 4, 5};
         List<List<Integer>> result = new ArrayList<>();
 
         backtrack(nums, 0, new ArrayList<>(), result);
