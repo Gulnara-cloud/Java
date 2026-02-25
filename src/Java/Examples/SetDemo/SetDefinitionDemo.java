@@ -121,7 +121,6 @@ Convert → toArray
         System.out.println(clothes);
         System.out.println(winterClothes);
 
-        //difference(removeAll)
         Set<String> difference = new HashSet<>(clothes);
         difference.removeAll(winterClothes);
         System.out.println("Difference: " + difference);
