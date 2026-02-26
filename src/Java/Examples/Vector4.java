@@ -21,6 +21,7 @@ public class Vector4 {
         vector.add("Five");
         vector.add("Six");
         vector.add("Seven");
+        vector.add("Eight");
         System.out.println(vector);
     }
 }
