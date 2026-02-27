@@ -12,9 +12,10 @@ public class CopyOnWriteArrayList6 {
         CopyOnWriteArrayList<String> safeList = new CopyOnWriteArrayList<>();
         safeList.add("A");
         safeList.add("B");
+        safeList.add("C");
 
         for (String s : safeList) {
-            System.out.println(s);
+            System.out.print(s + " ");
         }
     }
 }
