@@ -41,7 +41,8 @@ public class OrderStatisticsExample {
                 new Order(2L, "ORD-2"),
                 new Order(1L, "ORD-3"),
                 new Order(3L, "ORD-4"),
-                new Order(2L, "ORD-5")
+                new Order(2L, "ORD-5"),
+                new Order(3L, "ORD-6")
         );
         Map<Long, Integer> result = countOrdersByUser(orders);
         for (Map.Entry<Long, Integer> entry : result.entrySet()) {
