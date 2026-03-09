@@ -15,7 +15,7 @@ public class DuplicateCheck {
         return false;
     }
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 2};
+        int[] arr = {1, 2, 3, 2, 3};
         System.out.println(containsDuplicate(arr));
     }
 }
