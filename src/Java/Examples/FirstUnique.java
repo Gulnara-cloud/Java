@@ -20,7 +20,7 @@ public class FirstUnique {
         return -1;
     }
     public static void main(String[] args) {
-        int[] nums = {5, 4, 1, 2, 1, 2};
+        int[] nums = {5, 1, 4, 2, 1, 2};
         System.out.println(firstUnique(nums));
     }
 }
