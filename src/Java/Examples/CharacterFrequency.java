@@ -7,7 +7,7 @@ public class CharacterFrequency {
 
     public static void main(String[] args) {
 
-        String text = "programming";
+        String text = "lecture";
 
         Map<Character, Integer> map = new HashMap<>();
 
