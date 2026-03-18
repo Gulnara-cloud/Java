@@ -7,7 +7,7 @@ public class WordCounter {
 
     public static void main(String[] args) {
 
-        String text = "java is good java is powerful";
+        String text = "Los Angeles is the most beautiful city in US";
 
         String[] words = text.split(" ");
 
