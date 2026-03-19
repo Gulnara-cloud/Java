@@ -22,6 +22,7 @@ public class UserFilter {
         users.add(new User("Anna", 17));
         users.add(new User("John", 25));
         users.add(new User("Mike", 20));
+        users.add(new User("Kevin", 35));
 
         for (User user : users) {
 
