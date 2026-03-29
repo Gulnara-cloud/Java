@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class NumberFrequency {
     public static void main(String[] args) {
-        int[] numbers = {4, 2, 7, 4, 2, 4, 9, 7, 2};
+        int[] numbers = {4, 2, 7, 4, 2, 4, 9, 7, 2, 6};
 
         Map<Integer, Integer> frequencyMap = new HashMap<>();
 
