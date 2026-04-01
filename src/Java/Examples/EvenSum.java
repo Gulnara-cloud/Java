@@ -2,7 +2,7 @@ package Java.Examples;
 
 public class EvenSum {
     public static void main(String[] args) {
-        int[] numbers = {5, 8, 12, 3, 7, 10};
+        int[] numbers = {5, 13, 8, 12, 3, 7, 10};
 
         int sum = 0;
 
