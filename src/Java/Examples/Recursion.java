@@ -3,17 +3,15 @@ package Java.Examples;
 public class Recursion {
 
     public static int solve(int n) {
-        // base case
         if (n == 0) {
             return 0;
         }
 
-        // recursive case
         return n + solve(n - 1);
     }
 
     public static void main(String[] args) {
-        int result = solve(5);
+        int result = solve(6);
         System.out.println(result);
     }
 }
