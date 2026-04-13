@@ -2,7 +2,7 @@ package Java.Examples;
 
 public class ValidPalindrome {
     public static boolean isPalindrome(String s) {
-        int left = 0, right = s.length() - 1;
+        int left = 0, right = s.length() - 2;
 
         while (left < right) {
             while (left < right && !Character.isLetterOrDigit(s.charAt(left))) left++;
