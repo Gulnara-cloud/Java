@@ -24,7 +24,7 @@ class UniqueCharChecker {
 
         UniqueCharChecker checker = new UniqueCharChecker();
 
-        int result = checker.firstUnique("leetcode");
+        int result = checker.firstUnique("los angeles");
 
         System.out.println(result);
     }
