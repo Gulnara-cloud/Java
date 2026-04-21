@@ -11,7 +11,7 @@ class UniqueCharChecker {
             count.put(ch, count.getOrDefault(ch, 0) + 1);
         }
 
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = 1; i < s.length(); i++) {
             if (count.get(s.charAt(i)) == 1) {
                 return i;
             }
