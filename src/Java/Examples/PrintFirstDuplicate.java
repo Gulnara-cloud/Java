@@ -22,6 +22,5 @@ public class PrintFirstDuplicate {
             }
             seen.add(num);
         }
-        System.out.println("No duplicates found");
     }
 }
