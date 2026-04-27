@@ -24,7 +24,6 @@ public class IntersectionChecker {
         int[] arr2 = {3, 4, 5, 6};
 
         HashSet<Integer> intersection = findIntersection(arr1, arr2);
-
         System.out.println(intersection);
     }
 }
