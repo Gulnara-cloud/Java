@@ -25,7 +25,7 @@ public class SubarraySum {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 1};
+        int[] numbers = {1, 1, 1};
         int k = 2;
 
         int result = subarraySum(numbers, k);
