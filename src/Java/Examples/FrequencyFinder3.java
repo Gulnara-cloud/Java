@@ -23,7 +23,7 @@ public class FrequencyFinder3 {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {1, 1, 2, 2, 2, 3};
+        int[] numbers = {1, 1, 1, 2, 2, 3};
         int k = 2;
 
         List<Integer> result = topKFrequent(numbers, k);
