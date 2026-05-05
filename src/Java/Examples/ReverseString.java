@@ -12,6 +12,6 @@ public class ReverseString {
     }
 
     public static void main(String[] args) {
-        System.out.println(reverse("los angeles"));
+        System.out.println(reverse("Los angeles"));
     }
 }
