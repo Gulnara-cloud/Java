@@ -7,7 +7,7 @@ public class EvenSum {
         int sum = 0;
 
         for (int num : numbers) {
-            if (num % 4 == 0 && num > 5) {
+            if (num % 2 == 0 && num > 5) {
                 sum += num;
             }
         }
