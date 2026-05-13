@@ -17,7 +17,7 @@ public class Checker {
     }
 
     public static void main(String[] args) {
-        int nums[] = {1, 2, 3, 4, 2};
+        int nums[] = {1, 2, 3, 4, 3};
         boolean result = hasDuplicates(nums);
         System.out.println(result);
     }
