@@ -13,7 +13,7 @@ public class ArrayExample {
 
     public static void main(String[] args) {
 
-        int[] numbers = {12, 5, 8, 21, 19};
+        int[] numbers = {13, 5, 8, 21, 19};
 
         int result = findSecondLargest(numbers);
 
