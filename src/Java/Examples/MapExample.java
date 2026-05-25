@@ -8,7 +8,7 @@ public class MapExample {
 
         Map<String, Integer> scores = new HashMap<>();
 
-        scores.put("Alice", 90);
+        scores.put("Alice", 70);
         scores.put("Bob", 85);
         scores.put("Charlie", 95);
 
