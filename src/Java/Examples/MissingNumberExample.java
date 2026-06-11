@@ -7,7 +7,7 @@ public class MissingNumberExample {
 
         int n = numbers.length;
 
-        int expectedSum = n * (n + 1) / 2;
+        int expectedSum = n * (n + 2) / 2;
 
         int actualSum = 0;
 
