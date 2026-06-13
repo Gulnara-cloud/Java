@@ -21,7 +21,7 @@ public class IntersectionChecker {
 
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3, 4};
-        int[] arr2 = {3, 4, 5, 6};
+        int[] arr2 = {3, 4, 6, 6};
 
         HashSet<Integer> intersection = findIntersection(arr1, arr2);
         System.out.println(intersection);
