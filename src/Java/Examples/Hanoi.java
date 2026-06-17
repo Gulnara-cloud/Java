@@ -9,6 +9,6 @@ public class Hanoi {
     }
 
     public static void main(String[] args) {
-        backTracking(2, 'A', 'C', 'D');
+        backTracking(2, 'B', 'C', 'D');
     }
 }
