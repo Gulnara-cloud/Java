@@ -11,7 +11,7 @@ public class Recursion {
     }
 
     public static void main(String[] args) {
-        int result = solve(6);
+        int result = solve(8);
         System.out.println(result);
     }
 }
