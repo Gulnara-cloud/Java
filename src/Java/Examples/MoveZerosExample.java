@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MoveZerosExample {
     public static void main(String[] args) {
 
-        int[] numbers = {0, 1, 2, 0, 12};
+        int[] numbers = {0, 1, 2, 1, 12};
 
         int index = 0;
 
