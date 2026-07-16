@@ -3,7 +3,7 @@ package Java.Examples;
 public class SecondLargestExample {
     public static void main(String[] args) {
 
-        int[] numbers = {10, 5, 20, 8, 20, 15, 45};
+        int[] numbers = {10, 5, 20, 8, 20, 45};
 
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
