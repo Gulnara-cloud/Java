@@ -14,7 +14,7 @@ public class CopyOnWriteArrayList6 {
         safeList.add("B");
         safeList.add("C");
         safeList.add("D");
-        safeList.add("C");
+        safeList.add("A");
 
         for (String s : safeList) {
             System.out.print(s + " ");
