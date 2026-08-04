@@ -16,7 +16,7 @@ public class ArrayList2 {
         nums.add(10);
         nums.add(20);
         nums.add(30);
-        nums.add(50);
+        nums.add(60);
         System.out.println(nums.get(1));
 
         // replace, set
@@ -31,7 +31,7 @@ public class ArrayList2 {
         System.out.println(nums.size());
 
         // contains
-        System.out.println(nums.contains(50)); // false
+        System.out.println(nums.contains(60)); // false
 
         //subList , int fromIndex - to int Index
         List<Integer> sub = nums .subList(0,2);
