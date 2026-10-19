@@ -16,7 +16,7 @@ public class ArrayList2 {
         nums.add(10);
         nums.add(20);
         nums.add(30);
-        nums.add(60);
+        nums.add(50);
         System.out.println(nums.get(1));
 
         // replace, set
